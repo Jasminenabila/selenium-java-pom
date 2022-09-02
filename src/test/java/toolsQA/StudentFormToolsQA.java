@@ -14,11 +14,11 @@ public class StudentFormToolsQA {
 
         StudentFormToolsQAPage studentFormToolsQAPage = new StudentFormToolsQAPage(driver);
         System.out.println("The page is heading"+studentFormToolsQAPage.getHeading());
-        studentFormToolsQAPage.enterFirstName("Jasmine Nabila");
+        studentFormToolsQAPage.enterFirstName("Lee min hoo");
         studentFormToolsQAPage.enterLastName("Novel");
-        studentFormToolsQAPage.enterEmailField("jasmine@doku.com");
+        studentFormToolsQAPage.enterEmailField("lee@kr.com");
         studentFormToolsQAPage.chooseGender();
-        studentFormToolsQAPage.enterNumberPhone("6281510229216");
+        studentFormToolsQAPage.enterNumberPhone("292010291");
         studentFormToolsQAPage.createDates();
         studentFormToolsQAPage.enterSubject("Inilah akhirnya harus kuakhiri");
         Thread.sleep(3000);

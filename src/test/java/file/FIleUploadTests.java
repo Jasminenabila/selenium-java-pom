@@ -9,9 +9,9 @@ public class FIleUploadTests extends BaseTests {
    @Test
     public void testFileUpload(){
        var uploadPage = homePage.clickFileUpload();
-       uploadPage.uploadFile("/Users/jasmine/Documents/JASMINE/selenium/resources/chromedriver");
+       uploadPage.uploadFile("/contoh");
 
-       assertEquals(uploadPage.getUploadedFiles(), "Scenario Bulk Upload - new.xlsx", "Uploaded files incorrect");
+       assertEquals(uploadPage.getUploadedFiles(), "files,xlsx", "Uploaded files incorrect");
 
    }
 }
